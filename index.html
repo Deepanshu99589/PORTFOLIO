@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Deepanshu koli</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+  <style>
+   /* CSS for the text animation */
+/* CSS for the continuous text animation without colored line */
+/* CSS for the continuous text animation with a pause of 5 seconds after each loop */
+/* CSS for the text animation with a pause and slower speed */
+/* CSS for the continuous text animation without colored line */
+#text-animation span {
+    display: inline-block; /* Display spans as inline blocks to allow animation per line */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide overflow text */
+    animation: typing 5s steps(50, end) infinite; /* Make the animation continuous */
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  </style>
+
+  <style>
+
+  /* CSS for rotating the card on hover */
+#portfolio .card:hover {
+    transform: rotate(360deg); /* Rotate the card 5 degrees on hover */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+</style>
+
+<style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+    }
+    .image-container img {
+        max-width: 500px;
+        max-height: 200px;
+        margin: 10px;
+        transition: transform 0.3s;
+    }
+    .image-container img:hover {
+        transform: scale(1.4); /* Enlarge the image slightly on hover */
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="container-fluid"></div>
+   
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="">PORTFOLIO</a>                    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"style="font-weight: bold;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Trainings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"style="font-weight: bold;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about1">Internships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1nx9_rWxANBXh0hoabGiHwWxAzpR1i8kf/view?usp=sharing" target="_blank" style="font-weight: bold;">Resume</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <style>
+                .navbar-nav li:hover a {
+                    font-size: 20px; /* Adjust the font size as desired */
+                }
+            </style>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Deepanshu koli</h2>
+               <!-- Updated paragraph with text animation -->
+<p class="hero_desc" id="text-animation">
+  <span>I'm an aspiring web developer and data scientist,passionate about crafting</span>
+  <span> innovative digital solutions and uncovering insights from data.</span>
+</p>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+          var textElement = document.getElementById('text-animation');
+          textElement.style.animationPlayState = 'running';
+        });
+      </script> 
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center" style="color: yellow;">ABOUT ME</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/me2-modified.png" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>  I am hard working and to aim to achieve my goal. I wish to explore a possibility of serving organization. Seeking a further challenging,
+                        dynamic and Professional and environmental which let me contribute substantially towards achieving organization goal using my past experience. I
+                        look forward to enriching my experience in your company and wish to achieve recognition career prospects.                        
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Deepanshu koli</li>
+                                <li>Age: 20</li>
+                                <li>Job Title:  I am building my career in web Development or in software Development</li>
+                                <li>Mobile: 8130412093</li>
+                                <li>Email: deepanshukoli99589@gmail.com</li>
+                                <li>Github: <a href="https://github.com/Deepanshu99589" target="_blank">https://github.com/Deepanshu99589</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+    </section>
+
+      <!-- Skills section-->
+      <section id="skills">
+        <div class="container">
+            <h1 class="text-center" style="color: black;">SKILLS</h1>
+            <div class="image-container">
+                <img src="images/html.png" alt="Image 1">
+                <img src="images/css.png" alt="Image 2">
+                <img src="images/php.png" alt="Image 3">
+                <img src="images/boot.png" alt="Image 4">
+                <img src="images/js.png" alt="Image 5">
+                <img src="images/sql.png" alt="Image 6">
+                <img src="images/react.png" alt="Image 7">
+                <img src="images/python.png" alt="Image 8">
+                <img src="images/data.png" alt="Image 9">
+            </div>
+        </div>
+    </section>
+
+    <!-- education section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center" style="color: yellow;">EDUCATION</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText1">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">10th class</h4>
+                            <ul>
+                                <li>Institute: Convent of Gagan Bharti sr. sec. School</li>
+                                <li>Board: CBSE</li>
+                                <li>Percentage: 86.8</li>
+                                <li>Duration: 2017-2018</li>
+
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText2">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i> 
+                            <h4 class="card-title mt-3">12th class</h4>
+                            <ul>
+                                <li>Institute: Convent of Gagan Bharti sr. sec. School</li>
+                                <li>Board: CBSE</li>
+                                <li>Percentage: 73</li>
+                                <li>Duration: 2019-2020</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText3">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Graduation</h4>
+                            <ul>
+                                <li>Institute: Maharaja Agrasen Institute of Technology</li>
+                                <li>Course: B.Tech(ITE)</li>
+                                <li>Percentage: 83.5</li>
+                                <li>Duration: 2020-2024</li>
+
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            
+    </section>
+
+
+    <!-- Trainings section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center" style="color: yellow;">TRAININGS</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/intern.png" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">Web Development</h4>
+                            <ul>
+                                
+                                <li>Key Skills: HTML,CSS,Javascript,DBMS,SQL,PHP,Bootstrap,ReactJS</li>
+                                <li>Duration: 01 Aug,2022 - 26 Sep,2022</li>
+
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1EbbIFNsA0XDvYG6aJXGSAxtO3RBawgbc/view?usp=sharing" class="btn btn-success" target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/microsoft-.webp" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">AI Skills Challenge</h4>
+                            <ul>
+                                
+                                <li>Key Skills: Artificial Intelligence,Data Science,Machine Learning,Azure,Microsoft Azure,Github</li>
+                                <li>Duration: 27 Jul,2023 - 10 Aug,2023</li>
+
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1ano3g6irYmKlPiYQbSY_VTQN00CV6nF3/view?usp=sharing" class="btn btn-success"target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/0_guvi-logo.webp" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">Python</h4>
+                            <ul>
+                                
+                                <li>Key Skills: Python,Debugging,Pandas,Data Structures</li>
+                                <li>Duration: 18 Jul,2023 - 29 Jul,2023</li>
+
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1Mg-pktMKxMYgdWIGYm3EXrYRcNkrgUey/view?usp=sharing" class="btn btn-success"target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/intern.png" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">Data Structures and Algorithms</h4>
+                            <ul>
+                                <li>Key Skills: Data Structures, c++, </li>
+                                <li>Duration: 08 Sep,2022 - 03 Nov.,2022</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1sFYwsBFIze-yrKFg1cjzvPRbeDkSnt8F/view?usp=sharing" class="btn btn-success" target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/forage.png" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">Software Engineering Virtual Experience Program</h4>
+                            <ul>
+                                <li>Key Skills: Software Engineering,Software Development,Problem Solving</li>
+                                <li>Duration: 10 Aug,2023 - 12 Aug,2023</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1qlf93xqpjd9RrLHj77P1SfUhmEJYiH8c/view?usp=sharing" class="btn btn-success" target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/0_guvi-logo.webp" alt="Card image" style="width:100%">
+                        <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                            <h4 class="card-title" style="color: black;">A.I for India 2.0</h4>
+                            <ul>
+                                <li>Key Skills: Data Science, Artificial Intelligence, Machine Learning, Deep Learning</li>
+                                <li>Duration: 15 Aug,2023 - 16 Aug,2023</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1hZBYjalLdHlifsImLg9j4ZvxyZGv3WY0/view?usp=sharing" class="btn btn-success" target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           <br>
+                       
+</section>
+
+<!-- projects section-->
+
+<section id="projects" style="background-image: url('images/anime_image_a26f28f057.jpg'); background-size: cover; color: white; padding: 80px 0; margin: 0;  background-position: center; background-repeat: no-repeat;">
+    <div class="container mt-3">
+        <h1 class="text-center" style="color: yellow;">PROJECTS</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/MANGA.png" alt="Card image" style="width:100%">
+                    <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                        
+                        <p class="card-text">Designed and developed a responsive manga and anime website using HTML, CSS, and JavaScript. Website to read and buy various books and comics,and watch animated shows.
+                            An online platform designed for book enthusiasts, comic lovers, and fans of animated shows. The website offers a wide range of options for reading,
+                            purchasing books and comics, and enjoying a curated selection of animated shows
+                            </p>
+                        <div class="text-center">
+                            <a href="https://deepanshu99589.github.io/MANGA/" class="btn btn-success" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/ml.png" alt="Card image" style="width:100%">
+                    <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                        
+                        <p class="card-text">Built various Machine Learning models using collaborative filtering techniques in Python and Data Science. The "Machine Learning Models" aims to develop and deploy machine learning models that can analyze historical data, learn from it, and make
+                            accurate predictions on new, unseen data. 
+                            </p>
+                        <div class="text-center">
+                            <a href="https://github.com/Deepanshu99589/COLAB" class="btn btn-success" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/tempe.png" alt="Card image" style="width:100%">
+                    <div class="card-body" style="background-color: rgb(0, 200, 255);">
+                       
+                        <p class="card-text">Designed and developed a Temperature Converter website using HTML, CSS and Javascript.The Temperature Converter aims to create a user-friendly application that enables users to convert temperatures between various units of
+                            measurement i.e celsius, Fahrenheit and kelvin., </p>
+                        <div class="text-center">
+                            <a href="https://deepanshu99589.github.io/Temperature_converter/" class="btn btn-success" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
+
+    <!-- Internship section-->
+    <section id="about1">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center" style="color: yellow;">INTERNSHIP</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/internshala_og_image.webp" class= "imageAboutPage" alt="">
+                    <img src="images/download.png" class= "imageAboutPage" alt="">
+                    
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row mt-10">
+                        <div class="col-md-10">
+                            <h3>Internshala Student Partner</h3>
+                            <ul>
+                                <li>Key Skills: Digital Marketing,Email Marketing,Leadership,Strategy</li>
+                                <li>Duration: 07 Sep,2022 - 17 Nov,2022</li>
+                                <li>Description: Assisting students: You will be responsible for helping students with their coding-related queries and doubts. This may involve answering questions
+                                    during classes, lab sessions, or online forums.
+                                    Conducting sessions: You may be required to conduct coding sessions or workshops for students on various programming topics, including data
+                                    structures and algorithms, web development, mobile app development, and more.
+                                    </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1TFe1w5wBeUsSyWZb4QddNbs7F0Qt-qEu/view?usp=sharing" class="btn btn-success"target="_blank">Certificate</a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+        
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/deepanshu.koli.900" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/koli_deepanshu/" target="_blank"><i class="fab fa-instagram"></i></a>
+                
+                <a href="https://www.linkedin.com/in/deepanshu-koli-096878220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
